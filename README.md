@@ -14,7 +14,6 @@ This e-commerce website represents the culmination of my work in the `PROGRAMMIN
 - Product viewing: Users can view detailed information about - products.
 - Cart management: Users can add, remove, and modify items in their shopping carts.
 - Order placement: Users can seamlessly place orders for selected products.
----
 
 ## Setup
 Clone this repo to your desktop and run `npm install` to install all the dependencies.
@@ -32,7 +31,7 @@ ACCESS_TOKEN_EXPIRESIN=
 REFRESH_TOKEN_EXPIRESIN=
 
 ```
----
+
 ## Usage
 After you clone this repo to your desktop, go to its root directory and run `npm install` to install its dependencies.
 
