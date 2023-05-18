@@ -1,0 +1,21 @@
+.product-table {
+  td:nth-child(2) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    // align-items:center
+  }
+}
+.table-row-light {
+  background-color: #ffffff;
+}
+.table-row-dark {
+  background-color: #fbfbfb;
+}
+thead[class*="ant-table-thead"] th {
+  background-color: #367e62 !important;
+  // background-color:#001529 !important;
+  color: white !important;
+  font-weight: bold;
+  border: 1px solid white;
+  text-align: center;
+}

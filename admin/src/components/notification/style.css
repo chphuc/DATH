@@ -1,0 +1,34 @@
+/* width */
+#scrollableDiv::-webkit-scrollbar {
+    width: 10px;
+}
+  
+  /* Track */
+#scrollableDiv::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 4px;
+}
+   
+  /* Handle */
+#scrollableDiv::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 4px;
+}
+  
+  /* Handle on hover */
+#scrollableDiv::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.list-notification-item {
+  padding: 12px 16px 0 !important;
+}
+
+.list-notification-item:hover {
+  cursor: pointer;
+  background: #e6f7ff;
+}
+
+.notification-wrapper:hover {
+  cursor: pointer;
+}

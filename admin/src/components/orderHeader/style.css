@@ -1,0 +1,15 @@
+.ant-page-header {
+    padding: 0 !important;
+}
+
+.page-header-content {
+    display: flex;
+}
+
+.page-header-content .main {
+    flex: 4;
+}
+
+.page-header-content .extra {
+    flex: 1;
+}

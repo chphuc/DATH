@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Hidden arrow button in input type number */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.scroll1::-webkit-scrollbar {
+  width: 5px;
+}
+
+.scroll1::-webkit-scrollbar-track {
+  background: #ddd;
+}
+
+.scroll1::-webkit-scrollbar-thumb {
+  background: #666;
+}
+
+.no-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.min-w-250 {
+  min-width: 250px;
+}
+
+.w-450 {
+  width: 450px;
+}
+
+@media only screen and (min-width: 300px) {
+  .heightCart {
+    height: 630px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .heightCart {
+    height: 350px;
+  }
+}
+
+/* new add */
+
+.underline-hover-effect {
+  text-decoration: none;
+  display: inline-block;
+  padding-bottom: 0.25rem;
+  /* defines the space between text and underline */
+  position: relative;
+}
+
+.underline-hover-effect::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0.5px;
+  background-color: rgb(17, 18, 17);
+  transition: width 0.25s ease-out;
+}
+
+.underline-hover-effect:hover::before {
+
+  width: 100%;
+}
+
+.context {
+  width: 78%;
+  text-align: justify;
+  margin: auto;
+
+}
+
+.fontBu {
+  font-size: larger;
+  font-weight: 500;
+}
+
+.tabitem {
+  font-size: larger;
+  font-weight: 500;
+  color: rgb(204, 204, 204)
+}
+
+.tabitem:hover {
+  color: black;
+  transition: 1s;
+
+}
+
+#tabhead {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}

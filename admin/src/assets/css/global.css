@@ -1,0 +1,66 @@
+@import "~antd/dist/antd.css";
+
+:root {
+  --primary-color-hover:#367e62!important;
+}
+
+.button-hover-color:hover {
+  color: var(--primary-color-hover);
+}
+
+.main-content {
+  margin-top: 64px;
+}
+
+.ant-layout-content {
+  margin-left: 200px;
+  min-height: calc(100vh - 64px);
+}
+
+.page-header {
+  background: rgba(255, 255, 255, 1); 
+  padding: 0 24px 20px;
+
+}
+
+.page-content {
+  padding: 24px 24px 0;
+}
+
+.ant-popover-inner-content {
+  padding: 0;
+}
+.primary{
+  background-color: #367e62;
+}
+.ant-btn-primary{
+  background-color: #367e62!important;
+  border-color:  #367e62!important;
+}
+.ant-btn-sm{
+  color: #367e62!important
+}
+.reset-btn:hover{
+  color: #367e62!important;
+  border-color:  #367e62!important;
+}
+.ant-input-search-button:hover{
+  color: #367e62!important;
+  border-color:  #367e62!important;
+}
+.ant-input{
+  color: #367e62!important;
+  border-color:  #367e62!important;
+}
+.ant-select-selector{
+  color: #367e62!important;
+  border-color:  #367e62!important;
+}
+.ant-radio-group-outline{
+  color: #367e62!important;
+  border-color:  #367e62!important;
+}
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled){
+  color: #367e62!important;
+  border-color:  #367e62!important;
+}
